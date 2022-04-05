@@ -28,10 +28,10 @@ public class ex3 {
 		System.out.println("Adulto");
 		}
 	
-	else { 
+	else if(idade < 10 || idade > 25) { 
 		
-		System.out.println("Idade inválida");
-		System.out.println("===FIM===");
+		 System.out.println("Idade Inválida!");
+         System.out.println("======Fim======");
 		
 		}
 	}
